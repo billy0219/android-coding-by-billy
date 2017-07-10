@@ -6,7 +6,33 @@ public class main {
         // System.out.println("hello");
 
         // operator
-        Operators operators = new Operators();
-        operators.calculate();
+        // Operators operators = new Operators();
+        // operators.calculate();
+
+        // primitive data types
+        // PrimitiveDataTypes dataTypes = new PrimitiveDataTypes();
+        // dataTypes.explainInteger();
+        // dataTypes.explainDouble();
+        // dataTypes.castNumber();
+        // dataTypes.explainString();
+        // dataTypes.parseData();
+
+        // collection frameworks
+        // CollectionFrameworks collectionFrameworks = new CollectionFrameworks();
+        // collectionFrameworks.explainArray();
+        // collectionFrameworks.explainArrayList();
+        // collectionFrameworks.explainHashSet();
+        // collectionFrameworks.explainHashMap();
+
+        // if-statment
+        // IfStatement ifStatement = new IfStatement();
+        // ifStatement.explainBoolean();
+        // ifStatement.explainIfStatment();
+
+        // For-Loop
+        ForLoop forLoop = new ForLoop();
+        // forLoop.explainForLoop();
+        forLoop.explainForLoopWithArrayList();
     }
+
 }
