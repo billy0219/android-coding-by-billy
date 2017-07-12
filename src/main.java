@@ -64,10 +64,27 @@ public class main {
 //        System.out.println(subClasses.substract());
 //        System.out.println(subClasses.divide());
 
-        // access modifiers
-        AccessModifiers accessModifiers = new AccessModifiers(5,7);
-        System.out.println(accessModifiers.sum());
+//        access modifiers
+//        AccessModifiers accessModifiers = new AccessModifiers(5,7);
+//        System.out.println(accessModifiers.sum());
 
+        // Students Grade
+        StudentsGrade javaAssignment = new StudentsGrade();
+        javaAssignment.StudentsGrade(50 );
+
+        // Calculator
+        Calculator calculator = new Calculator(3,5);
+        System.out.println(calculator.sum());
+        Calculator calculator2 = new Calculator(3,5);
+        System.out.println(calculator2.multiply());
+        Calculator calculator3 = new Calculator(3,5);
+        System.out.println(calculator3.substract());
+        Calculator calculator4 = new Calculator(11,3);
+        System.out.println(calculator4.divide());
+
+        // Diamond
+        Diamond diamond = new Diamond();
+        diamond.diamonds();
     }
 
 }
