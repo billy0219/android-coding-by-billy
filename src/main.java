@@ -73,18 +73,22 @@ public class main {
 //        javaAssignment.StudentsGrade(50 );
 
         // Calculator
-        Calculator calculator = new Calculator(3,5);
-        System.out.println(calculator.sum());
-        Calculator calculator2 = new Calculator(3,5);
-        System.out.println(calculator2.multiply());
-        Calculator calculator3 = new Calculator(3,5);
-        System.out.println(calculator3.substract());
-        Calculator calculator4 = new Calculator(11,3);
-        System.out.println(calculator4.divide());
+//        Calculator calculator = new Calculator(3,5);
+//        System.out.println(calculator.sum());
+//        Calculator calculator2 = new Calculator(3,5);
+//        System.out.println(calculator2.multiply());
+//        Calculator calculator3 = new Calculator(3,5);
+//        System.out.println(calculator3.substract());
+//        Calculator calculator4 = new Calculator(11,3);
+//        System.out.println(calculator4.divide());
 
         // Diamond
-        Diamond diamond = new Diamond();
-        diamond.diamonds();
+//        Diamond diamond = new Diamond();
+//        diamond.diamonds();
+
+        // Lotto Num Creator
+        LottoNumCreator lottoNumCreator = new LottoNumCreator();
+        lottoNumCreator.LottoNum();
     }
 
 }
