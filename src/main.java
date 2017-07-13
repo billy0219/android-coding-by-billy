@@ -69,8 +69,8 @@ public class main {
 //        System.out.println(accessModifiers.sum());
 
         // Students Grade
-        StudentsGrade javaAssignment = new StudentsGrade();
-        javaAssignment.StudentsGrade(50 );
+//        StudentsGrade javaAssignment = new StudentsGrade();
+//        javaAssignment.StudentsGrade(50 );
 
         // Calculator
         Calculator calculator = new Calculator(3,5);
